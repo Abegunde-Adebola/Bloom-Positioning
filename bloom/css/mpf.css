@@ -1,0 +1,188 @@
+/*linear-Gradient(rgb(90, 88, 89), rgb(38, 34, 33), rg(52, 50, 55));
+*/
+
+:root{
+    --prim:#e17189;
+    --sec:#f4f4f6;
+    --text:#ffffff;
+    --h2textcolor:#272729;
+    --textcolor:#dadadc;
+    --edgecolor:#26292e;
+    --primfont:'Butterfly Kids',cursive;
+    --secfont:'Oswald', sans-serif;
+    --textfont:'Roboto',sans-serif;
+}
+
+ .icon {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    stroke-width: 0;
+    stroke:currentColor;
+    fill: currentColor;
+}
+      
+.icon-facebook, .icon-twitter, .icon-rss { 
+    background-color: white;
+    color: var(--edgecolor);
+    border-radius: 18px;
+    margin-top: 10px;
+}
+    
+    /* ul{ 
+                  /* list-style-type: none;
+    }
+    * {
+                  box-sizing: border-box; */ */
+    }
+    
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.inner {
+    width: 100%;              margin: 10 auto;
+    padding: 0 auto;
+}
+    
+h1 {               
+    margin-left: 150px;
+    padding: 0 auto;
+    color: var(--sec);
+}
+    
+.top-section {
+    margin-top: -40px;
+    padding: 10px;
+    width: 100%;
+    background-color: var(--edgecolor);
+}
+    
+.top-section .inner {
+    font-family: var(--primfont);
+    font-size: 30px;
+}
+    
+.top-nav {
+    width: 300px;
+    float: right;
+    }
+    
+.top-list {
+    margin-top: -90px;
+}
+
+.top-list-item {
+    display: inline;
+}
+    
+.welcome-section {
+    margin-top:-40px ;
+    padding-bottom: 40px;background-color: var(--prim)
+}
+    
+.welcome    { 
+    width: calc(100% / 2);
+    margin-right: 50px;
+    margin-left: 150px;
+    float: left;
+    /* background-color: var(--prim); */
+}
+    
+.welcome-header {
+                  color:var(--text);
+                  font-family: var(--textfont);
+    }
+    .welcome-text{
+                  color: white;
+    }
+    .welcome-btn{
+                  padding:10px 14px;       
+                  border: none;     
+                  border-radius: 4px;
+                  color: white;
+                  background: rgb(0, 0, 0);
+                  background: linear-Gradient(rgba(90, 88, 89, 1), rgba(38, 34, 33, 1), rgba(0, 0, 0, 1));
+    }
+    
+    .content-section{
+                  margin-bottom: 10px;
+                  background-color: var(--sec);
+                  
+    }
+    .content{
+                  margin-left: 150px;
+                  margin-right: 50px;
+                  width: calc(30% * 2 / 3);
+                  float: left;
+    }
+    .content-text {
+                  color: var(--h2textcolor);
+    }
+    .lorem1{
+                  margin-right: -80px;
+    }
+    .lorem2{
+                  margin-right: -40px;
+    }
+    .lorem3{
+                  margin-right: 150px;
+    }
+    
+    .top-footer {
+                  padding-top: 10px;
+    }
+    .product, 
+    .feedback {
+                  width: calc(100% /2);
+                  float: left;
+    }
+    .product {
+                  margin-left:150px;
+    }
+    .feedback-text {
+                  color: var(--h2textcolor);
+    }
+    .product-img {
+                  width:calc(40% / 2);
+                  margin-right: 180px;
+                  float: left;
+                  margin-bottom: 30px;
+    }
+    .feedback {
+                  margin-right: -400px;
+                  margin-left: 50px;
+                  padding-right: 350px;
+    }
+    .bottom-footer {
+                  color: white;
+                  background-color:var(--edgecolor);
+                  width: 100%;
+    }
+    .bottom-footer p {
+                  margin:0;
+                  margin-left: 150px;
+                  padding-top: 20px;
+    
+    }
+    .footer-nav{
+                  width: 300px;
+                  float: right;
+    }
+                  
+    .footer-list {
+                  margin: 0;
+                  padding: 0;
+                  margin-top: 10px;
+                  margin-left: 20px;
+    }
+                  
+    .footer-list-item {
+                  display: inline;
+                  font-size: 30px;
+    }
+    
+    .clear{
+                  clear: both;
+    }
